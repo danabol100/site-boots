@@ -160,7 +160,7 @@ button {
 }
 
 .card_desc {
-    font-size: 18px;
+    font-size: 14px;
     text-align: center;
     color: #000000;
     font-family: 'Ubuntu', Arial, sans-serif;
@@ -192,7 +192,7 @@ span {
 
 @media(max-width:480px) {
     .popular_wrapper {
-        gap: 10px;
+        gap: 20px;
     }
 
     .popular_card {
@@ -210,11 +210,11 @@ span {
         width: 100px;
     }
 
-    .popular_title {
+    .card_title {
         font-family: 'Ubuntu', Arial, sans-serif;
-        padding: 0;
+        padding: 6px 0 0 0;
         line-height: 1.35;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .card_price {
