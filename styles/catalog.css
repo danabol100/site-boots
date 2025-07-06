@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+h5 {
+    padding: 0;
+    margin: 0;
+}
+
 button {
     all: unset;
 }
@@ -78,7 +83,7 @@ button {
 
 .popular {
     align-items: center;
-    background-color: hsl(53, 71%, 80%);
+    background-color: #fff;
     padding: 100px 0 100px 0;
 }
 
@@ -96,7 +101,7 @@ button {
 }
 
 .popular_card {
-    background-color: gainsboro;
+    background-color: rgb(255, 255, 255);
     border-radius: 15px;
     border: 2px solid #fff;
     width: 250px;
@@ -116,7 +121,7 @@ button {
     height: 200px;
     object-fit: cover;
     width: 100%;
-    border-bottom: 2px solid #333;
+
 
 }
 
@@ -128,8 +133,8 @@ button {
 
 .card_price {
     font-size: 18px;
-    text-align: right;
-    color: brown;
+    text-align: center;
+    color: rgb(0, 0, 0);
 }
 
 .button-wrapper {
@@ -149,6 +154,32 @@ button {
     font-size: 20px;
 }
 
+.card_stars {
+    text-align: center;
+    font-size: 18px;
+}
+
+.card_desc {
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+    font-family: 'Ubuntu', Arial, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.55;
+    word-break: break-word;
+}
+
+span {
+    opacity: 0.7;
+    font-size: 15px;
+}
+
+.trans {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
 .card_btn {}
 
 @media(max-width:580px) {
@@ -156,5 +187,46 @@ button {
         text-align: center;
         padding: 0 0 50px 10px;
 
+    }
+}
+
+@media(max-width:480px) {
+    .popular_wrapper {
+        gap: 10px;
+    }
+
+    .popular_card {
+        background-color: #fff;
+
+
+        width: 200px;
+        height: 380px;
+        box-shadow: 0 8px 20px rgba(248, 247, 247, 0.3);
+        overflow: hidden;
+
+    }
+
+    .button-wrapper {
+        width: 100px;
+    }
+
+    .popular_title {
+        font-family: 'Ubuntu', Arial, sans-serif;
+        padding: 0;
+        line-height: 1.35;
+        font-size: 14px;
+    }
+
+    .card_price {
+        padding: 10px 0 20px 0;
+        font-size: 14px;
+        text-align: center;
+        color: rgb(0, 0, 0);
+    }
+
+
+
+    .button-wrapper {
+        display: none;
     }
 }
