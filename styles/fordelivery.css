@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    all: unset;
+}
+
+.container {
+    max-width: 1440px;
+}
+
+
+
+.header_nav {
+
+    width: 100%;
+    height: 40px;
+    border: 1px solid #fff;
+    background: linear-gradient(to right,
+            #d3d9e3,
+            lightslategray 40%,
+            lightslategray 60%,
+            #d3d9e3);
+}
+
+.logo_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_nav {
+    width: 100px;
+    border-right: 1px solid #fff;
+    color: #ff6600;
+    text-align: center;
+    padding: 8px 0 0 0;
+
+}
+
+.logo_bag {
+    width: 100px;
+    border-left: 1px solid #fff;
+    text-align: center;
+}
+
+.cart-icon {
+    width: 38px;
+    height: 38px;
+    color: #fff;
+    /* Цвет иконки, можно изменить */
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.cart-icon:hover {
+    color: #ff6600;
+    /* Цвет при наведении */
+}
+
+.content {
+    height: 1100px;
+    display: flex;
+    justify-content: center;
+    padding: 0 100px;
+
+    background-color: antiquewhite;
+}
+
+.container {}
+
+
+
+.content-title {
+    padding: 50px 0;
+    font-size: 60px;
+    text-align: center;
+}
+
+.content-desc {
+    font-size: 25px;
+}
+
+.sposob {
+    font-size: 25px;
+}
+
+.sposobul {
+    padding: 10px 0 0 30px;
+}
+
+.header-btn {
+    margin: 50px 0 20px 280px;
+    padding: 15px 0 0 0;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 20px;
+    color: aliceblue;
+    height: 60px;
+    width: 250px;
+    border-radius: 15px;
+    background-color: #333;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+@media(max-width:480px) {
+    .content-title {
+        padding: 50px 0;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .content-desc {
+        width: 300px;
+        font-size: 20px;
+    }
+
+    .sposob {
+        width: 300px;
+        font-size: 20px;
+    }
+
+    .header-btn {
+        margin: 20px auto;
+    }
+
+}
+
+@media(max-width:750px) {
+    .header-btn {
+        margin: 20px auto;
+    }
+}
