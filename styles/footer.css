@@ -63,9 +63,9 @@
 .contact-info {}
 
 .header {
-    height: 500px;
+    height: 700px;
     width: 100%;
-    background: url('/assets/bg2.PNG') 50% 97%/cover no-repeat;
+    background: url('../assets/bg2.PNG') 50% 97%/cover no-repeat;
 }
 
 .mode {
