@@ -12,4 +12,17 @@ button {
     max-width: 1440px;
 }
 
-a {}
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}

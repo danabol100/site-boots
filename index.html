@@ -7,6 +7,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
     <title>Document</title>
 </head>
 
@@ -14,37 +18,128 @@
     <div class="header_nav">
         <div class="container">
             <div class="logo_wrapper">
-                <div class="logo_nav">PKLove</div>
-                <div class="logo_bag">
-                    <svg class="cart-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
-                        <circle cx="9" cy="21" r="1" />
-                        <circle cx="20" cy="21" r="1" />
-                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
-                    </svg>
+                <div class="header_list">
+                    <ul class="list-item">
+                        <li><a class="item" href="">О Бренде</a></li>
+                        <li><a class="item" href="catalog.html">Каталог</a></li>
+                        <li><a class="item" href="">Доставка</a></li>
+                        <li><a class="item" href="">Блог</a></li>
+                    </ul>
+                </div>
+                <div class="logo_nav"> <a class="logo_nav" href="index.html">PK<span class="love">Love</span></a> </div>
+                <div class="header-contact">
+                    <div class="contact-item">
+                        <p class="contact-numb">9-324-424-234</p>
+                        <p class="contact-info">понеділок - пятница: 09:00-18:00 <br>
+                            по київскому часу
+
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="mobile-navigation" aria-label="mobile navigation">
+        <label for="menu-toggler-id" aria-label="open-close mobile navigation menu">
+            <svg class="mobile-navigation__burger" aria-label="burger icon">
+                <use href="assets/sprites.svg#icon-burger"></use>
+            </svg>
+        </label>
+
+        <input type="checkbox" name="toggler" id="menu-toggler-id" class="mobile-navigation__toggler">
+
+        <nav class="mobile-navigation__menu" aria-label="mobile navigation menu">
+            <ul class="mobile-navigation__list" aria-label="mobile navigation list">
+                <li class="mobile-navigation__item">
+                    <a href="#about-id" class="mobile-navigation__link">О бренде</a>
+                </li>
+                <li class="mobile-navigation__item">
+                    <a href="catalog.html" class="mobile-navigation__link">Каталог</a>
+                </li>
+                <li class="mobile-navigation__item">
+                    <a href="#product-id" class="mobile-navigation__link">Доставка</a>
+                </li>
+                <li class="mobile-navigation__item">
+                    <a href="#pricing-id" class="mobile-navigation__link">Блог</a>
+                </li>
+            </ul>
+
+            <label for="menu-toggler-id" class="mobile-navigation__close" aria-label="close mobile navigation menu">
+                <svg class="mobile-navigation__cross" aria-label="cross icon">
+                    <use href="assets/sprites.svg#icon-close"></use>
+                </svg>
+            </label>
+        </nav>
+    </div>
+
+
     <header class="header">
 
         <div class="container">
 
-            <div class="header_wrapper">
-                <div class="header_content">
-                    <h1 class="header_title">Анатомичні кросівки</h1>
-                    <p class="header_desc">Оригинальні моделі з широкою колодкою! Ідеальні для твоеї стопи
-                    </p>
-                    <a href="catalog.html" class="header-btn">
-                        Дивитись каталог
-                        <a />
+
+        </div>
+
+    </header>
+    <section class="mode">
+        <div class="container">
+            <p class="mode-text">Ми поєднали моду, тренди та технології ортопедичної
+                і босоногого взуття, щоб досягти головної мети:
+                створити черевики, які не захочеться знімати навіть наприкінці дня.</p>
+        </div>
+    </section>
+    <section class="about" id="about-id">
+        <div class="container">
+            <h4 class="about-title">О нас</h4>
+            <p class="about-desc">PKLove народився у Києві в 2023 році — в непростий, але важливий час. Ми — команда
+                ентузіастів здорового способу життя з понад 20-річним досвідом у сфері ортопедії та медичних виробів.
+
+                Ми обожнюємо рух, підтримуємо свідоме споживання і віримо, що комфортне взуття може бути стильним.
+                Працюючи з провідними західними брендами — як-от Birkenstock, Vivobarefoot, Xero Shoes, Camper та інші —
+                ми навчилися цінувати якість, баланс і функціональність.
+
+                Ми створили пікелови — нову категорію взуття, в якій поєднується все найкраще: анатомічна підтримка,
+                природна свобода руху, естетика і комфорт.
+
+                PKLove — це взуття, яке ви не захочете знімати.</p>
+        </div>
+    </section>
+
+    <section class="look">
+        <div class="container">
+            <h3 class="look-title">LookBook</h3>
+            <div class="look-wrapper">
+                <div class="look-content">
+                    <img class="look-img" src="assets/img1.webp" alt="">
                 </div>
-                <div class="header_img">
-                    <img class="main-photo" src="assets/main2.png" alt="">
+                <div class="look-content">
+                    <img class="look-img" src="assets/img2.webp" alt="">
+                </div>
+                <div class="look-content">
+                    <img class="look-img" src="assets/img3.webp" alt="">
+                </div>
+                <div class="look-content">
+                    <img class="look-img" src="assets/img4.webp" alt="">
+                </div>
+                <div class="look-content">
+                    <img class="look-img" src="assets/img5.webp" alt="">
+                </div>
+                <div class="look-content">
+                    <img class="look-img" src="assets/img6.webp" alt="">
+                </div>
+                <div class="look-content">
+                    <img class="look-img" src="assets/img7.webp" alt="">
+                </div>
+                <div class="look-content">
+                    <img class="look-img" src="assets/img8.webp" alt="">
+                </div>
+                <div class="look-content">
+                    <img class="look-img" src="assets/img9.webp" alt="">
                 </div>
             </div>
         </div>
-    </header>
+    </section>
     <section class="delivery">
         <div class="container">
             <div class="delivery_content">
